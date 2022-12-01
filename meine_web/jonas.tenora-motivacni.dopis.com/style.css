@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(630deg,rgb(90, 6, 90),rgba(143, 7, 125, 0.699),rgba(5, 197, 223, 0.699),rgba(144, 7, 223, 0.699));
+    background-size: 200%;
+    animation: bganimation 60s infinite;
+}
+
+@keyframes bganimation {
+    0%{
+        background-position: 0% 50%;
+}
+    50%{
+        background-position: 100% 50%;
+}
+    100%{
+        background-position: 0% 50%;
+}
+}

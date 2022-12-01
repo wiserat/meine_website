@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Jonáš Tenora</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  </head>
+  <body onload="poNacteni()" style="background-color: #f2f2f2;">
+    <h1>
+
+    <a href="https://www.youtube.com/watch?v=T13pcI_BmI0">
+      <button type="button" class="button">
+       <span class="button__text">Zájmy</span>
+      </button>
+    </a> 
+
+    &nbsp;&nbsp;
+
+    <a href="https://www.youtube.com/watch?v=T13pcI_BmI0">
+      <button type="button" class="button">
+       <span class="button__text">Škola</span>
+      </button>
+    </a> 
+
+    &nbsp;&nbsp;
+
+    <a href="file:///C:/Users/Admin/Documents/mini%20hra/stranka%20programovani.html">
+      <button type="button" class="button">
+       <span class="button__text">Programování</span>
+      </button>
+    </a> 
+
+    <style>
+      .button {
+  height: 50px;
+  padding: 0;
+  background: #e6e6e6;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #a6a6a6;
+}
+
+.button:active {
+  background: #a6a6a6;
+}
+
+.button__text {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  color: rgb(0, 0, 0);
+  height: 100%;
+}
+    </style>
+    </h1>
+
+    <br></br>
+    <br></br>
+    <br></br>
+
+    <input type="number" id="cislo1">
+    <select id="operace">
+      <option value="scitani">+</option>
+      <option value="odcitani">-</option>
+      <option value="nasobeni">x</option>
+      <option value="deleni">:</option>
+    </select>
+    <input type="number" id="cislo2">
+    <button onclick="vypocet()">=</button>
+    <input type="checkbox" id="zaokrouhlit">zaokrouhlit
+    <div id="vystup">...</div>
+
+    <br></br>
+    <br></br>
+    <br></br>
+
+        <div id="datum">...</div>
+        <br>
+        <div id="pocasi">...</div>
+        <img id="obrazek_pocasi" height="120">
+    
+
+
+  </body>
+</html>
